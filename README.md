@@ -13,11 +13,11 @@ auckland-pollution/ ├── data/ │ ├── raw/ │ ├── processed/ 
   - `raw/`: Original datasets.
   - `processed/`: Cleaned and transformed datasets.
 
-- **`notebooks/`**: Jupyter notebooks for data preprocessing, analysis, and modeling.
+- **`notebooks/`**: Jupyter notebooks for data pre-processing, analysis, and modelling.
 
 - **`scripts/`**: Python scripts for data processing, model training, and evaluation.
 
-- **`models/`**: Serialized models saved after training.
+- **`models/`**: Serialised models saved after training.
 
 - **`reports/`**: Documentation and reports related to the project.
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ```
 6. **Usage**
  - Data Pre-processing:
-Run the data preprocessing script:
+Run the data pre-processing script:
 ```bash
 
 python scripts/data_preprocessing.py
