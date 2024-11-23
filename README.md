@@ -5,13 +5,6 @@
 This project aims to predict air pollution levels in Auckland using regression and neural network models. The goal is to provide accurate forecasts to aid in environmental planning and public health awareness.
 
 ### Project Structure
-```python
-auckland-pollution/ ├── data/ │ ├── raw/ │ ├── processed/ ├── notebooks/ ├── scripts/ ├── models/ ├── reports/ ├── requirements.txt ├── README.md └── .gitignore
-```
-
-- **`data/`**: Contains datasets.
-  - `raw/`: Original datasets.
-  - `processed/`: Cleaned and transformed datasets.
 
 - **`scripts/`**: Python scripts for data processing, model training, and evaluation.
 
