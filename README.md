@@ -13,13 +13,7 @@ auckland-pollution/ ├── data/ │ ├── raw/ │ ├── processed/ 
   - `raw/`: Original datasets.
   - `processed/`: Cleaned and transformed datasets.
 
-- **`notebooks/`**: Jupyter notebooks for data pre-processing, analysis, and modelling.
-
 - **`scripts/`**: Python scripts for data processing, model training, and evaluation.
-
-- **`models/`**: Serialised models saved after training.
-
-- **`reports/`**: Documentation and reports related to the project.
 
 - **`requirements.txt`**: List of dependencies required to run the project.
 
