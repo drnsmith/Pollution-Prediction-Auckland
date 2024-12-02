@@ -1,115 +1,136 @@
-## Auckland Air Pollution Prediction
-## Project Overview
+# **Auckland Air Pollution Prediction**
 
-This project focuses on predicting air pollution levels, specifically PM10 concentrations, in Auckland (NZ). Using historical air quality, weather, and traffic data, we employed advanced data science and machine learning (ML) techniques to model and forecast pollution patterns.
+## **Project Overview**
+This project focuses on predicting air pollution levels, specifically **PM10** concentrations, in Auckland, New Zealand. By utilizing historical data on air quality, weather conditions, and traffic patterns, the project employs advanced data science and machine learning techniques to model and forecast pollution trends.
 
-## Key Achievements
+---
 
-1. **Data Collection and Preparation**:
-   - Collected and combined data from multiple sources, including air quality monitoring stations, weather records, and traffic flow statistics.
-   - Addressed challenges (i.e., missing values and outliers) through robust data cleaning techniques.
-   - Performed feature engineering by adding temporal (hour, day, season) and interaction features (e.g., wind speed × temperature).
+## **Key Achievements**
+- **Data Collection and Preparation**:
+  - Aggregated data from multiple sources, including air quality monitoring stations, meteorological records, and traffic flow statistics.
+  - Addressed challenges such as missing values and outliers through robust data cleaning methods.
+  - Engineered features by incorporating temporal elements (e.g., hour, day, season) and interaction terms (e.g., wind speed × temperature).
 
-2. **Exploratory Data Analysis (EDA)**:
-   - Uncovered trends in PM10 levels, such as diurnal cycles (e.g., rush hour peaks) and seasonal variations (e.g., higher concentrations in winter).
-   - Used correlation analysis to identify the most significant predictors, including temperature, wind speed, and traffic density.
+- **Exploratory Data Analysis (EDA)**:
+  - Identified trends in PM10 levels, such as diurnal cycles (e.g., rush hour peaks) and seasonal variations (e.g., higher concentrations in winter).
+  - Conducted correlation analysis to determine significant predictors, including temperature, wind speed, and traffic density.
 
-3. **Model Development**:
-   - Built and trained multiple ML models for PM10 prediction:
-     - **Regression Models**: Linear Regression and Random Forests for interpretable results.
-     - **Neural Networks**: Developed a Multilayer Perceptron (MLP) and Long Short-Term Memory (LSTM) network for time-series forecasting.
-   - Compared model performance using metrics like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R²).
+- **Model Development**:
+  - Developed and trained multiple machine learning models for PM10 prediction:
+    - **Regression Models**: Linear Regression and Random Forests for interpretable results.
+    - **Neural Networks**: Constructed a Multilayer Perceptron (MLP) and Long Short-Term Memory (LSTM) network for time-series forecasting.
+  - Evaluated model performance using metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R²).
 
-4. **Model Evaluation and Insights**:
-   - Achieved accurate predictions with Random Forest and LSTM models outperforming simpler regression methods.
-   - Provided insights into feature importance, demonstrating that wind speed, time of day, and traffic flow were the most impactful variables.
+- **Model Evaluation and Insights**:
+  - Achieved accurate predictions, with Random Forest and LSTM models outperforming simpler regression methods.
+  - Provided insights into feature importance, highlighting that wind speed, time of day, and traffic flow were the most impactful variables.
 
-5. **Real-World Applications**:
-   - Developed actionable predictions for urban planners and policymakers to mitigate air pollution during high-risk periods.
-   - Demonstrated the potential for integration into real-time air quality monitoring systems.
+- **Real-World Applications**:
+  - Offered actionable predictions for urban planners and policymakers to mitigate air pollution during high-risk periods.
+  - Demonstrated potential integration into real-time air quality monitoring systems.
 
-### Key Challenges Addressed
+---
 
-- **Data Quality**: Handled missing values and inconsistent measurements across datasets.
-- **Computational Complexity**: Optimised hyperparameters and batch processing for efficient neural network training.
-- **Feature Interaction**: Accounted for complex relationships between weather, traffic, and PM10 levels using advanced feature engineering.
-
-### Next Steps
-
-- **Expand to Real-Time Analysis**: Integrate IoT sensors to provide dynamic and real-time pollution predictions.
-- **Incorporate More Pollutants**: Extend the analysis to include other pollutants like PM2.5 and NO2 for a comprehensive air quality forecast.
-- **Deploy as a Web App**: Build an interactive dashboard for live predictions and visualisations.
-
-### Project Structure
-
-- **`scripts/`**: Python scripts for data processing, model training, and evaluation.
-
-- **`requirements.txt`**: List of dependencies required to run the project.
-
-- **`README.md`**: Overview and instructions for the project.
-
+## **Project Structure**
+- **`scripts/`**: Contains Python scripts for data processing, model training, and evaluation.
+- **`requirements.txt`**: Lists dependencies required to run the project.
+- **`README.md`**: Provides an overview and instructions for the project.
 - **`.gitignore`**: Specifies files and directories to be ignored by Git.
 
-### Setup Instructions
+---
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your_username/auckland-pollution.git
-   ```
+## **Setup Instructions**
 
-2. **Navigate to the Project Directory**:
+### **1. Clone the Repository**
 ```bash
-cd auckland-pollution
+git clone https://github.com/drnsmith/Pollution-Prediction-Auckland.git
+cd Pollution-Prediction-Auckland
 ```
 
-3. **Create a Virtual Environment**:
-``bash
-
+### **2. Create a Virtual Environment**
+```bash
 python -m venv venv
 ```
-4. **Activate the Virtual Environment**:
-On Windows:
-```bash
-venv\Scripts\activate
-```
-On macOS/Linux:
-```bash
 
-source venv/bin/activate
-```
-5. **Install Dependencies**:
-```bash
+### **3. Activate the Virtual Environment**
+- On Windows:
+  ```bash
+  venv\Scripts\activate
+  ```
+- On macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
 
+### **4. Install Dependencies**
+```bash
 pip install -r requirements.txt
 ```
-6. **Usage**
- - Data Pre-processing:
-Run the data pre-processing script:
-```bash
 
+---
+
+## **Usage**
+
+### **1. Data Pre-processing**
+Run the data pre-processing script to clean and prepare the data:
+```bash
 python scripts/data_preprocessing.py
 ```
- - Train Regression Models:
-Execute the training script:
-```bash
 
+### **2. Train Regression Models**
+Execute the training script for regression models:
+```bash
 python scripts/train_regression_models.py
 ```
- - Train Neural Network Models:
-Execute the training script:
+
+### **3. Train Neural Network Models**
+Execute the training script for neural network models:
 ```bash
 python scripts/train_neural_networks.py
 ```
- - Evaluate Models:
-Run the evaluation script:
-```bash
 
+### **4. Evaluate Models**
+Run the evaluation script to assess model performance:
+```bash
 python scripts/evaluate_models.py
 ```
 
-### Contributing
-Contributions are welcome. Please fork the repository and submit a pull request.
+---
+
+### Acknowledgments and Contributing
+
+This project was a collaborative effort between Natasha Smith and Elaheh Bastani. We would like to acknowledge each other’s contribution in designing, implementing, and executing the entire pipeline, from data collection and cleaning to sentiment analysis and visualisation. Our complementary skills made this project a success.
+Contributions are welcome! If you have ideas or improvements to share, please follow these steps:
+
+1. **Fork the Repository:**
+Create your own copy of the repository by clicking the "Fork" button at the top right of this page.
+
+2. **Create a Feature Branch:**
+Work on your changes in a dedicated branch.
+
+```bash
+git checkout -b feature/YourFeatureName
+```
+3. **Commit Your Changes:**
+Write clear and concise commit messages explaining what you’ve done.
+
+```bash
+git commit -m "Add YourFeatureName"
+```
+4. **Push Your Changes**:
+Push your feature branch to your forked repository.
+```bash
+git push origin feature/YourFeatureName
+```
+5. **Open a Pull Request**:
+Submit your changes to the main repository by opening a pull request (PR). Ensure your PR description explains your changes clearly.
+
+6. **Review and Feedback**:
+We will review your PR and may suggest improvements before merging it into the main branch.
+
+Thank you for your interest in contributing!
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
+
 
