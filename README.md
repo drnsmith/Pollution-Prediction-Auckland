@@ -1,11 +1,11 @@
-# **Auckland Air Pollution Prediction**
+### AI-Powered Air Quality Prediction with Regression Models and Advanced Machine Learning Techniques (LSTM)
 
-## **Project Overview**
-This project focuses on predicting air pollution levels, specifically **PM10** concentrations, in Auckland, New Zealand. By utilizing historical data on air quality, weather conditions, and traffic patterns, the project employs advanced data science and machine learning techniques to model and forecast pollution trends.
+#### **Overview**
+This project focuses on predicting air pollution levels, specifically **PM10** concentrations, in Auckland, New Zealand. By utilising historical data on air quality, weather conditions, and traffic patterns, the project employs advanced data science and machine learning techniques to model and forecast pollution trends.
 
 ---
 
-## **Key Achievements**
+#### **Key Achievements**
 - **Data Collection and Preparation**:
   - Aggregated data from multiple sources, including air quality monitoring stations, meteorological records, and traffic flow statistics.
   - Addressed challenges such as missing values and outliers through robust data cleaning methods.
