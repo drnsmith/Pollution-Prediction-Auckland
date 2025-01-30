@@ -97,6 +97,14 @@ python scripts/evaluate_models.py
 
 ---
 
+### Productisation  
+This air quality prediction system can be developed into a **real-time environmental monitoring platform**, offering **live air pollution forecasts** for policymakers, city planners, and environmental agencies. By integrating with **IoT sensors and satellite data**, the system can provide **dynamic air quality predictions** across different regions. A potential **API service** could allow researchers and businesses to query pollution forecasts for specific locations, enabling **data-driven decision-making** in urban planning and public health initiatives.
+
+### Monetisation  
+The project can be monetised through a **subscription-based SaaS model**, offering **custom air quality predictions** to **government agencies, environmental research firms, and businesses**. A **freemium model** could provide **basic pollution forecasts**, while premium plans could include **detailed trend analysis, risk alerts, and industry-specific insights**. Additionally, licensing the **pollution forecasting API** to **smart city projects, transport authorities, and climate tech startups** presents another revenue stream.
+
+
+---
 ### Contributing
 This project was a collaborative effort between Natasha Smith and Elaheh Bastani. We would like to acknowledge each other’s contribution in designing, implementing, and executing the entire pipeline, from data collection and cleaning to sentiment analysis and visualisation. Our complementary skills made this project a success.
 Contributions are welcome! If you have ideas or improvements to share, please follow these steps:
